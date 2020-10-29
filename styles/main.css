@@ -13,6 +13,11 @@ body {
 }
 
 /* the styles for the header */
+header {
+	border-bottom: 3px solid #931420;
+
+}
+
 header img {
 	float: left;
 }
@@ -38,6 +43,7 @@ main {
 
 main h1 {
 	font-size: 150%;
+	border: 3px solid #931420;
 }
 
 main h2 {
@@ -52,8 +58,12 @@ main h3 {
 a:focus, a:hover {
 	font-style: italic;
 }
+footer{
+	background-color: #931420;
+}
 
 footer p {
 	text-align: center;
+	color: white;
 }
 /* the styles for the footer */
