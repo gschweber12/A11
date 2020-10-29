@@ -1,4 +1,8 @@
 /* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
 html {
 	background-color: white;
 }
@@ -14,12 +18,14 @@ body {
 
 /* the styles for the header */
 header {
+	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
 
 }
 
 header img {
 	float: left;
+	padding: 0 30px;
 }
 
 .shadow {
@@ -29,16 +35,17 @@ header img {
 header h2 {
 	font-size: 170%;
 	color: #800000;
-	text-indent: 30px;
+
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
+
 }
 /* the styles for the section */
 main {
 	clear: left;
+	padding: 0 30px;
 }
 
 main h1 {
